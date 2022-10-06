@@ -2,6 +2,7 @@ html body {
     margin: 0;
     padding: 0;
     background-color: cornflowerblue;
+    max-width: 900px;
 }
 
 section h1 {
@@ -79,6 +80,7 @@ section h1 {
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-play-state: running;
+    filter: drop-shadow(8px 8px 10px #4e4e4c);
 }
 
 @keyframes example-animation {
@@ -99,20 +101,23 @@ section h1 {
 
 
 .container2 {
-    background-color: #bd15b4;
+    background: url(https://img.freepik.com/free-vector/abstract-background_53876-43362.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
     height: 150px;
-
+    
 }
 .animated-square2{
     height: 100px;
     width: 100px;
     background-color: #e9fa00;
-
     position: relative;
     animation-name: example-animation2;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-play-state: running;
+    filter: opacity(65%);
 }
 @keyframes example-animation2 {
     from {
@@ -136,19 +141,28 @@ section h1 {
     overflow: auto;
 }
 
-.container3:hover
 
+
+#rcorner3 {
+    border-radius: 90px;
+}
+.container3:hover
 .animated-square3{
     height: 100px;
     width: 100px;
     background-color: #5cfa00;
-
     position: relative;
     animation-name: example-animation3;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-play-state: running;
 }
+
+#rcorner6{
+    border-radius: 100px;
+}
+
+
 @keyframes example-animation3 {
     from {
         transform: 
