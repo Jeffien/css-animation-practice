@@ -29,7 +29,7 @@ section h1 {
 .translate {
     transform: translate(120px, 75px);
     transition-duration: 3s;
-    transition-delay: 0, 2;
+    transition-delay: 0.2s;
 }
 
 .menu-header {
@@ -37,7 +37,7 @@ section h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #04b5c2;
+    background-color: #24e2f0;
     border: #89f5ff;
     border-style: solid;
     border-width: 2px;
@@ -68,15 +68,17 @@ section h1 {
     height: 150px;
     overflow: hidden;
 }
+
+
 .animated-square{
     height: 100px;
     width: 100px;
-    background-color: aquamarine;
-
+    background-color: #f6ff7f;
     position: relative;
     animation-name: example-animation;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
+    animation-play-state: running;
 }
 
 @keyframes example-animation {
@@ -87,7 +89,7 @@ section h1 {
         rotateY(0deg);
     }
     to {
-        background-color: #a55fd4;
+        background-color: #f78558;
         transform: 
         translateX(100px)
         translateY(100px)
@@ -95,6 +97,38 @@ section h1 {
     }
 }
 
-@keyframes example {
-    
+
+.container2 {
+    background-color: #682064;
+    height: 150px;
+    overflow: auto;
 }
+.animated-square2{
+    height: 100px;
+    width: 100px;
+    background-color: #e9fa00;
+
+    position: relative;
+    animation-name: example-animation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes example-animation2 {
+    from {
+        transform: 
+        translateX(0px)
+        translateY(0px)
+        rotateY(0deg);
+    }
+    to {
+        background-color: #ff4800;
+        transform: 
+        translateX(100px)
+        translateY(100px)
+        rotateY(180deg);
+    }
+}
+
+.container2:hover
+
