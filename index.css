@@ -68,13 +68,14 @@ section h1 {
     background-color: #00eeff;
 }
 /*Menu settings: end*/
-/*page 2: start - squares*/
-
+/*Page 2:start - Square animations*/
 .container {
     background-color: #db7dd7;
     height: 150px;
     overflow: hidden;
 }
+
+
 
 .animated-square {
     height: 100px;
@@ -175,5 +176,4 @@ section h1 {
     }
 }
 
-/*page 2: end - squares*/
 /*Page 3 - studsboll*/
