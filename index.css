@@ -1,6 +1,7 @@
 html body {
     margin: 0;
     padding: 0;
+    background-color: cornflowerblue;
 }
 
 section h1 {
@@ -28,5 +29,72 @@ section h1 {
 .translate {
     transform: translate(120px, 75px);
     transition-duration: 3s;
-    transition-delay: 0,2;
+    transition-delay: 0, 2;
+}
+
+.menu-header {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #04b5c2;
+    border: #89f5ff;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+.menu {
+    display: block;
+    color: #89f5ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+
+
+}
+
+.menu:hover {
+    background-color: #1b565a;
+}
+
+.menu:active {
+    background-color: #00eeff;
+}
+
+.container {
+    background-color: #db7dd7;
+    height: 150px;
+    overflow: hidden;
+}
+.animated-square{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+
+    position: relative;
+    animation-name: example-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example-animation {
+    from {
+        transform: 
+        translateX(0px)
+        translateY(0px)
+        rotateY(0deg);
+    }
+    to {
+        background-color: #a55fd4;
+        transform: 
+        translateX(100px)
+        translateY(100px)
+        rotateY(180deg);
+    }
+}
+
+@keyframes example {
+    
 }
