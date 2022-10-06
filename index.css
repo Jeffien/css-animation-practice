@@ -71,7 +71,7 @@ section h1 {
 }
 
 
-.animated-square{
+.animated-square {
     height: 100px;
     width: 100px;
     background-color: #f6ff7f;
@@ -85,17 +85,14 @@ section h1 {
 
 @keyframes example-animation {
     from {
-        transform: 
-        translateX(0px)
-        translateY(0px)
-        rotateY(0deg);
+        transform:
+            translateX(0px) translateY(0px) rotateY(0deg);
     }
+
     to {
         background-color: #f78558;
-        transform: 
-        translateX(100px)
-        translateY(100px)
-        rotateY(180deg);
+        transform:
+            translateX(100px) translateY(100px) rotateY(180deg);
     }
 }
 
@@ -106,9 +103,10 @@ section h1 {
     background-size: 100%;
     background-position: center;
     height: 150px;
-    
+
 }
-.animated-square2{
+
+.animated-square2 {
     height: 100px;
     width: 100px;
     background-color: #e9fa00;
@@ -119,19 +117,17 @@ section h1 {
     animation-play-state: running;
     filter: opacity(65%);
 }
+
 @keyframes example-animation2 {
     from {
-        transform: 
-        translateX(0px)
-        translateY(0px)
-        rotateY(0deg);
+        transform:
+            translateX(0px) translateY(0px) rotateY(0deg);
     }
+
     to {
         background-color: #ff4800;
-        transform: 
-        translateX(100px)
-        translateY(100px)
-        rotateY(180deg);
+        transform:
+            translateX(100px) translateY(100px) rotateY(180deg);
     }
 }
 
@@ -146,8 +142,8 @@ section h1 {
 #rcorner3 {
     border-radius: 90px;
 }
-.container3:hover
-.animated-square3{
+
+.container3:hover .animated-square3 {
     height: 100px;
     width: 100px;
     background-color: #5cfa00;
@@ -158,26 +154,20 @@ section h1 {
     animation-play-state: running;
 }
 
-#rcorner6{
+#rcorner6 {
     border-radius: 100px;
 }
 
 
 @keyframes example-animation3 {
     from {
-        transform: 
-        translateX(0px)
-        translateY(0px)
-        rotateY(0deg);
+        transform:
+            translateX(0px) translateY(0px) rotateY(0deg);
     }
+
     to {
         background-color: #ff0000;
-        transform: 
-        translateX(100px)
-        translateY(100px)
-        rotateY(180deg);
+        transform:
+            translateX(100px) translateY(100px) rotateY(180deg);
     }
 }
-
-
-
