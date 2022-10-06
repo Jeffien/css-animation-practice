@@ -1,3 +1,5 @@
+/*background setup*/
+
 html body {
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@ section h1 {
     text-align: center;
 }
 
+/*Page 1: start - smiley*/
 #main-container {
     display: flex;
     justify-content: center;
@@ -32,7 +35,8 @@ section h1 {
     transition-duration: 5s;
     transition-delay: 0.2s;
 }
-
+/*Page 1: end - smiley*/
+/*Menu settings: start*/
 .menu-header {
     list-style: none;
     margin: 0;
@@ -63,13 +67,14 @@ section h1 {
 .menu:active {
     background-color: #00eeff;
 }
+/*Menu settings: end*/
+/*page 2: start - squares*/
 
 .container {
     background-color: #db7dd7;
     height: 150px;
     overflow: hidden;
 }
-
 
 .animated-square {
     height: 100px;
@@ -137,8 +142,6 @@ section h1 {
     overflow: auto;
 }
 
-
-
 #rcorner3 {
     border-radius: 90px;
 }
@@ -171,3 +174,6 @@ section h1 {
             translateX(100px) translateY(100px) rotateY(180deg);
     }
 }
+
+/*page 2: end - squares*/
+/*Page 3 - studsboll*/
